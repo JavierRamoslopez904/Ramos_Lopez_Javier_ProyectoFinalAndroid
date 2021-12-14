@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Equipacion"
+    android:background="@color/red">
+
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="144dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/athletic_bilbao_logo__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="191dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/athletic"
+        android:textAlignment="center"
+        android:textColor="@color/newBlack"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="288dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="456dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/equipacion"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ninthImage"
+        android:layout_width="198dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="316dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/camiseta_athletic_bilbao_local_2022_barata_1_removebg_preview__1_" />
+
+    <ImageView
+        android:id="@+id/tenthImage"
+        android:layout_width="198dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_8462ed43990baf6410d097f0534_removebg_preview__1_" />
+
+    <Button
+        android:id="@+id/tenthButton"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/comprar"
+        android:onClick="goToOperacionCompra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eleventhButton"
+        android:layout_width="109dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="156dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/comprar"
+        android:onClick="goToOperacionCompra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/volver"
+        android:backgroundTint="@color/grey"
+        android:onClick="goToProductos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

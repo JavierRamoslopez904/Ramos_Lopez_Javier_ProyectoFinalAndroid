@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/red"
+    tools:context=".CompraRealizada">
+
+    <ViewFlipper
+        android:id="@+id/firstViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="115dp" />
+
+    <ImageView
+        android:id="@+id/secondImage"
+        android:layout_width="46dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="517dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/user__1_" />
+
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="144dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/athletic_bilbao_logo__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="191dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/athletic"
+        android:textAlignment="center"
+        android:textColor="@color/newBlack"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/eleventhEditText"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="158dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="278dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/grey"
+        android:onClick="volver"
+        android:text="@string/volver" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="139dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="15dp"
+        android:onClick="seguirComprando"
+        android:text="@string/seguir" />
+
+    <ImageButton
+        android:id="@+id/fifthImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="187dp"
+        android:layout_marginBottom="366dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/villalibrejpeg__1_" />
+
+    <TextView
+        android:id="@+id/ThirdTextView"
+        android:layout_width="150dp"
+        android:layout_height="136dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="364dp"
+        android:text="@string/bufalo"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/sixthImageButton"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="184dp"
+        android:onClick="musicaAthletic"
+        android:layout_marginBottom="27dp"
+        app:srcCompat="@drawable/_1xu2bdb4ol__1___1_" />
+
+
+</RelativeLayout>

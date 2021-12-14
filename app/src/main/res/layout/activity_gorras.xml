@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gorras"
+    android:background="@color/red">
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="144dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/athletic_bilbao_logo__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="191dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/athletic"
+        android:textAlignment="center"
+        android:textColor="@color/newBlack"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="257dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="460dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/gorras"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/tenthButton"
+        android:layout_width="109dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/comprar"
+        android:onClick="goToOperacionCompra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eleventhButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="148dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/comprar"
+        android:onClick="goToOperacionCompra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="107dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/volver"
+        android:backgroundTint="@color/grey"
+        android:onClick="goToProductos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="308dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gorra_removebg_preview__1_" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="175dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gorra__1__removebg_preview__2_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

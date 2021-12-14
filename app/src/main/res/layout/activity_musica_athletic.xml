@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicaAthletic"
+    android:background="@color/red">
+
+
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="144dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/athletic_bilbao_logo__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="191dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/athletic"
+        android:textAlignment="center"
+        android:textColor="@color/newBlack"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/eleventhImage"
+        android:layout_width="329dp"
+        android:layout_height="313dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="176dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bolson" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:onClick="PlayPause"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/png_clipart_computer_icons_button_google_play_play_angle_text_thumbnail_removebg_preview__2_" />
+
+    <ImageButton
+        android:id="@+id/eigthImageButton"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:onClick="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pausita__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="70dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:onClick="Anterior"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_06117__1_" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="74dp"
+        android:layout_height="61dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="148dp"
+        android:background="@android:color/transparent"
+        android:onClick="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/avanzar__1_" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="36dp"
+        android:text="@string/volver"
+        android:onClick="goBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

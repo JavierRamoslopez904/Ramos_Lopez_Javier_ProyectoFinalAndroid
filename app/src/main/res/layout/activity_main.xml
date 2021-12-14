@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/red">
+
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="144dp"
+        android:layout_height="126dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/athletic_bilbao_logo__1__removebg_preview" />
+
+    <TextView
+        android:id="@+id/firstTextView"
+        android:layout_width="194dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/athletic"
+        android:textAlignment="center"
+        android:textColor="@color/newBlack"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/firstButton"
+        android:layout_width="285dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="160dp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToJugadores"
+        android:text="@string/jugadores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/firstImage"
+        android:layout_width="186dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="212dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/willi_removebg_preview__1_" />
+
+    <Button
+        android:id="@+id/secondButton"
+        android:layout_width="285dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="260dp"
+        android:backgroundTint="@color/black"
+        android:onClick="goToTienda"
+        android:text="@string/tienda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="119dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginBottom="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tienda_removebg_preview" />
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/secondImageButton"
+            android:layout_width="93dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/el_androide_libre_497212199_179452761_1706x960_removebg_preview__1_" />
+
+        <ImageButton
+            android:id="@+id/thirdImageButton"
+            android:layout_width="93dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="32dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_366_2000_removebg_preview__1___1_" />
+
+        <ImageButton
+            android:id="@+id/fourthImageButton"
+            android:layout_width="93dp"
+            android:layout_height="67dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="21dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/kisspng_computer_icons_github_scalable_vector_graphics_log_github_logo_black_shape_svg_png_icon_free_download_5bf2f184b8c139_6843446115426481967568_removebg_preview__1___1_" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
